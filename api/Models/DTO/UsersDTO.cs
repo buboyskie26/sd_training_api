@@ -70,14 +70,4 @@ namespace api.Models.DTO
         public bool is_active { get; set; }
 
     }
-    public class StudentsCreateDTO
-    {
-        public string Username { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public bool IsActive { get; set; }
-        public DateTime? CreatedDate { get; set; }
-
-    }
-    
 }

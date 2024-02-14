@@ -52,7 +52,6 @@ namespace api.App_Utility.Data
 
             foreach (DataRow row in dt.Rows)
             {
-
                 UsersReturnDTO dto = new UsersReturnDTO();
 
                 dto.Id = Convert.ToInt32(row["id"].ToString());
@@ -64,8 +63,10 @@ namespace api.App_Utility.Data
 
                 if (row["createdDate"].ToString() != "")
                     dto.CreatedDate = Convert.ToDateTime(row["createdDate"].ToString());
+
                 if (row["modifiedDate"].ToString() != "")
                     dto.ModifiedDate = Convert.ToDateTime(row["modifiedDate"].ToString());
+
                 result.Add(dto);
             }
 
@@ -100,6 +101,7 @@ namespace api.App_Utility.Data
         {
             UsersReturnDTO result = new UsersReturnDTO();
             DataTable dt = getByIdentifier("email", email);
+
             if (dt.Rows.Count == 0)
                 return null;
 

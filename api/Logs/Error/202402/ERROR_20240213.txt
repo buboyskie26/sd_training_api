@@ -1,0 +1,144 @@
+Date :13/02/2024 4:22:49 pm
+Message :The method or operation is not implemented.
+StackTrace :   at api.App_Utility.Data.StudentsUtils.ExecuteRead(String v, SqlParameterCollection params) in C:\Users\Sirios\source\repos\traning-api\api\App_Utility\Data\StudentsUtils.cs:line 59
+   at api.App_Utility.Data.StudentsUtils.getByIdentifier(String identifier, String value) in C:\Users\Sirios\source\repos\traning-api\api\App_Utility\Data\StudentsUtils.cs:line 52
+   at api.App_Utility.Data.StudentsUtils.getAll() in C:\Users\Sirios\source\repos\traning-api\api\App_Utility\Data\StudentsUtils.cs:line 18
+   at api.Controllers.StudentsController.getAll() in C:\Users\Sirios\source\repos\traning-api\api\Controllers\StudentsController.cs:line 25
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 4:26:50 pm
+Message :The method or operation is not implemented.
+StackTrace :   at api.App_Utility.Data.StudentsUtils.ExecuteRead(String v, SqlParameterCollection params) in C:\Users\Sirios\source\repos\traning-api\api\App_Utility\Data\StudentsUtils.cs:line 61
+   at api.App_Utility.Data.StudentsUtils.getByIdentifier(String identifier, String value) in C:\Users\Sirios\source\repos\traning-api\api\App_Utility\Data\StudentsUtils.cs:line 54
+   at api.App_Utility.Data.StudentsUtils.getAll() in C:\Users\Sirios\source\repos\traning-api\api\App_Utility\Data\StudentsUtils.cs:line 20
+   at api.Controllers.StudentsController.getAll() in C:\Users\Sirios\source\repos\traning-api\api\Controllers\StudentsController.cs:line 25
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:31:37 pm
+Message :SQL Exception in ExecuteRead | SP: dbo.sp_students_create, System.Data.SqlClient.SqlParameterCollection | SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:31:37 pm
+Message :StudentsUtils | create | {"FirstName":"Justine","LastName":"Sirios","MiddleName":"Abulencia","Age":22,"Address":"49 Pechay St","Course":"Computer Science"} SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:33:28 pm
+Message :SQL Exception in ExecuteRead | SP: dbo.sp_students_create, System.Data.SqlClient.SqlParameterCollection | SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:33:28 pm
+Message :StudentsUtils | create | {"FirstName":"Justine","LastName":"Sirios","MiddleName":"Abulencia","Age":22,"Address":"49 Pechay St","Course":"Computer Science"} SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:33:49 pm
+Message :SQL Exception in ExecuteRead | SP: dbo.sp_students_create, System.Data.SqlClient.SqlParameterCollection | SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:33:49 pm
+Message :StudentsUtils | create | {"FirstName":"Justine","LastName":"Sirios","MiddleName":"Abulencia","Age":22,"Address":"49 Pechay St","Course":"Computer Science"} SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:35:47 pm
+Message :SQL Exception in ExecuteRead | SP: dbo.sp_students_create, System.Data.SqlClient.SqlParameterCollection | SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:35:47 pm
+Message :StudentsUtils | create | {"FirstName":"Justine","LastName":"Sirios","MiddleName":"Abulencia","Age":22,"Address":"49 Pechay St","Course":"Computer Science"} SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:40:08 pm
+Message :SQL Exception in ExecuteRead | SP: dbo.sp_students_create, System.Data.SqlClient.SqlParameterCollection | SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:40:08 pm
+Message :StudentsUtils | create | {"FirstName":"Justine","LastName":"Sirios","MiddleName":"Abulencia","Age":22,"Address":"49 Pechay St","Course":"Computer Science"} SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:40:35 pm
+Message :SQL Exception in ExecuteRead | SP: dbo.sp_students_create, System.Data.SqlClient.SqlParameterCollection | SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:40:35 pm
+Message :StudentsUtils | create | {"FirstName":"Justine","LastName":"Sirios","MiddleName":"Abulencia","Age":22,"Address":"49 Pechay St","Course":"Computer Science"} SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:45:37 pm
+Message :SQL Exception in ExecuteRead | SP: dbo.sp_students_create, System.Data.SqlClient.SqlParameterCollection | SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:45:37 pm
+Message :StudentsUtils | create | {"FirstName":"Justine","LastName":"Sirios","MiddleName":"Abulencia","Age":22,"Address":"49 Pechay St","Course":"Computer Science"} SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:46:11 pm
+Message :SQL Exception in ExecuteRead | SP: dbo.sp_students_create, System.Data.SqlClient.SqlParameterCollection | SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:49:10 pm
+Message :SQL Exception in ExecuteRead | SP: dbo.sp_students_create, System.Data.SqlClient.SqlParameterCollection | SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:49:10 pm
+Message :StudentsUtils | create | {"FirstName":"Justine","LastName":"Sirios","MiddleName":"Abulencia","Gender":null,"Age":22,"Address":"49 Pechay St","Course":"Computer Science"} SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:49:18 pm
+Message :SQL Exception in ExecuteRead | SP: dbo.sp_students_create, System.Data.SqlClient.SqlParameterCollection | SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:49:18 pm
+Message :StudentsUtils | create | {"FirstName":"Justine","LastName":"Sirios","MiddleName":"Abulencia","Gender":"Male","Age":22,"Address":"49 Pechay St","Course":"Computer Science"} SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@first_name', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:53:07 pm
+Message :SQL Exception in ExecuteRead | SP: dbo.sp_students_create, System.Data.SqlClient.SqlParameterCollection | SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@user_id', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+
+Date :13/02/2024 5:53:07 pm
+Message :StudentsUtils | create | {"FirstName":"Justine","LastName":"Sirios","MiddleName":"Abulencia","Gender":"Male","Age":22,"Address":"49 Pechay St","Course":"Computer Science"} SQL Error: Number - 201, Procedure or function 'sp_students_create' expects parameter '@user_id', which was not supplied.
+
+
+-----------------------------------------------------------------------------
+

@@ -192,6 +192,7 @@
     <Compile Include="App_Utility\AuthTokenParser.cs" />
     <Compile Include="App_Utility\CodeUtility.cs" />
     <Compile Include="App_Utility\Crypto.cs" />
+    <Compile Include="App_Utility\Data\StudentsUtils.cs" />
     <Compile Include="App_Utility\Data\UsersUtils.cs" />
     <Compile Include="App_Utility\ErrorLogs.cs" />
     <Compile Include="App_Utility\JwtManager.cs" />
@@ -227,11 +228,13 @@
     <Compile Include="Authorization\Authorizations.cs" />
     <Compile Include="Controllers\AuthenticationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\StudentsController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DBInterface.cs" />
+    <Compile Include="Models\DTO\StudentsDTO.cs" />
     <Compile Include="Models\DTO\UsersDTO.cs" />
     <Compile Include="Models\SchoolModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -323,6 +326,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Logs\Error\" />
     <Folder Include="Views\Authentication\" />
+    <Folder Include="Views\Students\" />
     <Folder Include="Views\User\" />
   </ItemGroup>
   <ItemGroup>
